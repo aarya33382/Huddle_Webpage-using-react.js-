@@ -1,0 +1,135 @@
+.extra{
+  height:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flow{
+  height:200px;
+  width:600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+  position:relative;
+  top:70px;
+  background-color: white;
+}
+#btn{
+  background-color:#FF52C1;
+  border-radius: 30px;
+  width: 230px;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+}
+#btn:hover{
+  background-color:#fa84cf;
+}
+
+.footer-container{
+  background-color: #00252E;
+  height:330px;
+  padding:100px 40px 30px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+/* #footer-container{
+  width: 100%;
+  height: 300px;
+  background-color: #00252E ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#inner-footer{
+  width: 90%;
+  height: 250px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+#inner-footer a{
+  color: white;
+}
+#one,#two,#three{
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  flex-direction: column;
+}
+#four{
+  height: 150px;
+  display: flex;
+  justify-content:space-around;
+  align-items:flex-start;
+  flex-direction: column;
+}
+#social-media{
+  width: 150px;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+#one div img{
+    padding: 0px 10px 0px 0px;
+}
+#inner-footer a{
+   color: white;
+   text-decoration: none;
+}
+#inner-footer a:hover{
+  text-decoration:underline;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+  .flow{
+    width: 85%;
+    height: 150px;
+    text-align: center;
+  }
+  .extra{
+    height:130px;
+  }
+  .flow h1{
+     font-size: 16px;
+  }
+  #btn{
+    width: 200px;
+    height: 50px;
+  }
+  .footer-container{
+    height:650px ;
+    align-items:flex-end;
+  }
+  #inner-footer{
+    width: 90%;
+    height: 550px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #four{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+  }
+  #copy{
+    font-size: 12px;
+  }
+  #two,#three{
+    height: 100px;
+  }
+  #one{
+    height: 250px;
+  }
+}
